@@ -10,7 +10,6 @@ import EmailBan from "./components/EmailBan";
 import Pharma from './components/Pharma';
 import AfterFX from './components/AfterFX';
 import Contact from './components/Contact';
-//import QuoteGen from "./components/QuoteGen";
 import Footer from "./components/Footer";
 
 
@@ -47,8 +46,6 @@ export default function Home() {
         <section id = "contact">
           <Contact />
         </section> 
-
-        {/* {<QuoteGen />} */}
 
         <Footer />
 
