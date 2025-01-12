@@ -19,3 +19,42 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.workitem {
+  overflow: hidden;
+  position: relative;
+  display: block
+}
+
+.workitem:hover img {
+  top: -70px;
+  -moz-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease
+}
+
+.workitem img {
+  position: relative;
+  -moz-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  top: 0
+}
+
+.workitem span {
+  background: hsl(213, 72%, 49%);
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  display: block
+}
