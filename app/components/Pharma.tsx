@@ -9,7 +9,7 @@ import CardCANCERINSIGHTS from './CardCANCERINSIGHTS';
 
 const Pharma = () => {
   return (
-    <div className="mx-auto pt-10 max-w-[1600px]">
+    <div className="mx-auto pb-10 pt-12 max-w-[1600px]">
         <div className="text-left px-10 pb-10 max-w-7xl mx-auto">
             <h2>Custom Pharma Video Carousels</h2>
         </div>

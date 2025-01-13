@@ -26,7 +26,7 @@ const CardEARL = () => {
             }}> 
             
                 <a href='#'><Image src={heroImage} width={800} alt="Earl Enterprises" className="workitem" />
-                <span className="workitem">View Project</span></a>
+                <span className="workitem">View Projects</span></a>
 
         </motion.div>
 
