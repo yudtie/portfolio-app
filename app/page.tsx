@@ -29,7 +29,7 @@ const KaushanFont = Kaushan_Script ({
 export default function Home() {
   return (  
     
-    <main className={`${latoFont.variable} ${KaushanFont.variable}`}>
+    <main className={`${latoFont.variable} ${KaushanFont.variable} bg-white`}>
       <Header />
         
         <section id = "about">
