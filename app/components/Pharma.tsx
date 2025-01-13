@@ -11,7 +11,7 @@ const Pharma = () => {
   return (
     <div className="mx-auto pt-10 max-w-[1600px]">
         <div className="text-left px-10 pb-10 max-w-7xl mx-auto">
-            <p>Custom Pharma Video Carousels</p>
+            <h2>Custom Pharma Video Carousels</h2>
         </div>
         <div className="flex flex-col flex-shrink-0 md:flex-row max-w-fit">
             <CardXOFIGO />

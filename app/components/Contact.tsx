@@ -5,8 +5,8 @@ import * as motion from "motion/react-client";
 const Contact = () => {
   return (
     
-    <div className="flex flex-col relative px-10 py-10 md:flex-row max-w-7xl mx-auto"> 
-        <motion.div className="text-left md:pr-20 md:pl-0 md:w-80 xl:w-96"
+    <div className="flex flex-col relative px-10 pb-10 pt-12 md:flex-row max-w-7xl mx-auto"> 
+        <motion.div className="text-left md:pl-0 md:w-80 xl:w-96"
             initial={{
                 y:300,
                 opacity:0,
@@ -24,10 +24,10 @@ const Contact = () => {
                 once:true
             }}
         >
-            <p>Contact Me</p>
+            <h2>Contact Me</h2>
         </motion.div>
 
-        <motion.div className="text-left md:w-2/3 "
+        <motion.div className="text-left md:w-2/3 font-lato"
             initial={{
                 y:300,
                 opacity:0,
