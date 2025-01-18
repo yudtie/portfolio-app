@@ -31,8 +31,8 @@ const page = () => {
                     once:true
                 }} 
             >
-                <h1>Hard Rock Corporate</h1>
-                <p>The project was to redesign and code the corporate section of hardrock.com keeping with similar responsive design and coding styles.</p>
+                <h1>Revolutions Per Minute</h1>
+                <p>A Podcast/Blog style community built to engage with Hard Rock fans.</p>
             </motion.div>
             
             
