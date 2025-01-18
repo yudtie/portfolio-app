@@ -2,15 +2,17 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className="bg-white sticky top-0 p-5 flex items-start justify-between max-w-[1600px] mx-auto z-20 xl:items-center">
-      <div>
-        menu left
-      </div>
+    <nav className="bg-white sticky top-0 p-5  max-w-[1600px] mx-auto z-20 ">
+      <div className="flex items-start justify-between p-5">
+        <div className="">
+          menu left
+        </div>
 
-      <div>
-        menu right
+        <div className="">
+          menu right
+        </div>
       </div>
-    </header>
+    </nav>
   )
 }
 

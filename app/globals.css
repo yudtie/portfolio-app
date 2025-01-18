@@ -21,10 +21,16 @@ body {
   background-color: white;
 }
 
+h1 {
+  color: #2374D7;
+  font-family: var(--font-kaushan);
+  font-size: 2.5rem;
+}
+
 h2 {
   color: #2374D7;
   font-family: var(--font-kaushan);
-  font-size: 2.3rem;
+  font-size: 2.1rem;
 }
 
 p {

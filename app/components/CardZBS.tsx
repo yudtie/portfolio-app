@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import * as motion from "motion/react-client";
 import heroImage from '../../public/ZBS-hero.jpg'
@@ -25,8 +26,8 @@ const CardZBS = () => {
                 once:true
             }}> 
             
-                <a href='#'><Image src={heroImage} width={800} alt="Zalutko Business Services" className="workitem" />
-                <span className="workitem">View Project</span></a>
+                <Link href='zbs'><Image src={heroImage} width={800} alt="Zalutko Business Services" className="workitem" />
+                <span className="workitem">View Project</span></Link>
 
         </motion.div>
 

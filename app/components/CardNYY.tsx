@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import * as motion from "motion/react-client";
 import heroImage from '../../public/nyysteak-hero.jpg'
@@ -25,8 +26,8 @@ const CardNYY = () => {
                 once:true
             }}> 
             
-                <a href='#'><Image src={heroImage} width={800} alt="NYY Steak" className="workitem" />
-                <span className="workitem">View Project</span></a>
+                <Link href='nyysteak'><Image src={heroImage} width={800} alt="NYY Steak" className="workitem" />
+                <span className="workitem">View Project</span></Link>
 
         </motion.div>
 

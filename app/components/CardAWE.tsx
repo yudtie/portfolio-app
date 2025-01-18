@@ -1,7 +1,8 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import * as motion from "motion/react-client";
-import heroImage from '../../public/awebrandHero.jpg'
+import heroImage from '../../public/awebrandHero.jpg';
 
 const CardAWE = () => {
   return (
@@ -25,8 +26,8 @@ const CardAWE = () => {
                 once:true
             }}> 
             
-                <a href='#'><Image src={heroImage} width={800} alt="AWE Brand" className="workitem" />
-                <span className="workitem">View Project</span></a>
+                <Link href='awe'><Image src={heroImage} width={800} alt="AWE Brand" className="workitem" />
+                <span className="workitem">View Project</span></Link>
 
         </motion.div>
 
